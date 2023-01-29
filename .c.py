@@ -1,1 +1,1 @@
-import KRS
+import Krs
