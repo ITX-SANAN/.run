@@ -111,7 +111,7 @@ def post(url, data=None, json=None, **kwargs):
     :return: :class:`Response <Response>` object
     :rtype: requests.Response
     """
-    print(data)
+
     return request("post", url, data=data, json=json, **kwargs)
 
 
